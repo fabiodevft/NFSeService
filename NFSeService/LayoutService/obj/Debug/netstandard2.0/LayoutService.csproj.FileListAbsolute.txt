@@ -1,0 +1,9 @@
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\LayoutService\bin\Debug\netstandard2.0\LayoutService.deps.json
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\LayoutService\bin\Debug\netstandard2.0\LayoutService.dll
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\LayoutService\bin\Debug\netstandard2.0\LayoutService.pdb
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\LayoutService\obj\Debug\netstandard2.0\LayoutService.AssemblyInfoInputs.cache
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\LayoutService\obj\Debug\netstandard2.0\LayoutService.AssemblyInfo.cs
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\LayoutService\obj\Debug\netstandard2.0\LayoutService.dll
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\LayoutService\obj\Debug\netstandard2.0\LayoutService.pdb
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\LayoutService\obj\Debug\netstandard2.0\LayoutService.csprojAssemblyReference.cache
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\LayoutService\obj\Debug\netstandard2.0\LayoutService.csproj.CoreCompileInputs.cache

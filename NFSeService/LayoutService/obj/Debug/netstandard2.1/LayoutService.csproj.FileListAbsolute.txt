@@ -1,0 +1,5 @@
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\LayoutService\bin\Debug\netstandard2.1\LayoutService.deps.json
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\LayoutService\bin\Debug\netstandard2.1\LayoutService.dll
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\LayoutService\obj\Debug\netstandard2.1\LayoutService.csprojAssemblyReference.cache
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\LayoutService\obj\Debug\netstandard2.1\LayoutService.AssemblyInfoInputs.cache
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\LayoutService\obj\Debug\netstandard2.1\LayoutService.AssemblyInfo.cs

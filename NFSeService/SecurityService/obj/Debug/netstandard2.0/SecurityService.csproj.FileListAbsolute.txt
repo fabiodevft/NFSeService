@@ -1,0 +1,12 @@
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\SecurityService\bin\Debug\netstandard2.0\SecurityService.deps.json
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\SecurityService\bin\Debug\netstandard2.0\SecurityService.dll
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\SecurityService\bin\Debug\netstandard2.0\SecurityService.pdb
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\SecurityService\bin\Debug\netstandard2.0\LayoutService.dll
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\SecurityService\bin\Debug\netstandard2.0\LayoutService.pdb
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\SecurityService\obj\Debug\netstandard2.0\SecurityService.csprojAssemblyReference.cache
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\SecurityService\obj\Debug\netstandard2.0\SecurityService.AssemblyInfoInputs.cache
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\SecurityService\obj\Debug\netstandard2.0\SecurityService.AssemblyInfo.cs
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\SecurityService\obj\Debug\netstandard2.0\SecurityService.csproj.CoreCompileInputs.cache
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\SecurityService\obj\Debug\netstandard2.0\SecurityService.csproj.CopyComplete
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\SecurityService\obj\Debug\netstandard2.0\SecurityService.dll
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\SecurityService\obj\Debug\netstandard2.0\SecurityService.pdb
