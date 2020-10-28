@@ -62,6 +62,7 @@ namespace LayoutService.Enums
         PORTALFACIL_ACTCON_202 = 53,
         ELv2 = 54,
         MANAUS_AM = 55,
-        EReceita = 56
+        EReceita = 56,
+        SIAP = 57
     }
 }

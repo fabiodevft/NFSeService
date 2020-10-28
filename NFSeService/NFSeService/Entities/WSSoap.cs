@@ -1,26 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace NFSeService.Entities
+﻿namespace NFSeService.Entities
 {
     public class WSSoap
     {
 
-        private string _ActionWeb;
+        private string _ActionSoap;
         private string _ContentType;
         private string _EnderecoWeb;
-        private string _SoapString;
         private string _TagRetorno;
         private string _VersaoSoap;
+        
 
         /// <summary>
         /// Web Action - Endereço com a ação/método que será executado no webservice
         /// </summary>
-        public string ActionWeb
+        public string ActionSoap
         {
-            get => _ActionWeb;
-            set => _ActionWeb = value;
+            get => _ActionSoap;
+            set => _ActionSoap = value;
         }
 
         /// <summary>
@@ -41,15 +37,7 @@ namespace NFSeService.Entities
             set => _EnderecoWeb = value;
         }
 
-        /// <summary>
-        /// String do SOAP
-        /// </summary>
-        public string SoapString
-        {
-            get => _SoapString;
-            set => _SoapString = value;
-        }
-
+        
         /// <summary>
         /// Versão do SOAP
         /// </summary>

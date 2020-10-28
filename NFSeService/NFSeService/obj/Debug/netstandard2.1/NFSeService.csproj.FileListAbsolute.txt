@@ -1,0 +1,12 @@
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\NFSeService\obj\Debug\netstandard2.1\NFSeService.csprojAssemblyReference.cache
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\NFSeService\obj\Debug\netstandard2.1\NFSeService.AssemblyInfoInputs.cache
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\NFSeService\obj\Debug\netstandard2.1\NFSeService.AssemblyInfo.cs
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\NFSeService\obj\Debug\netstandard2.1\NFSeService.csproj.CoreCompileInputs.cache
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\NFSeService\bin\Debug\netstandard2.1\NFSeService.deps.json
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\NFSeService\bin\Debug\netstandard2.1\NFSeService.dll
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\NFSeService\bin\Debug\netstandard2.1\NFSeService.pdb
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\NFSeService\bin\Debug\netstandard2.1\LayoutService.dll
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\NFSeService\bin\Debug\netstandard2.1\LayoutService.pdb
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\NFSeService\obj\Debug\netstandard2.1\NFSeService.csproj.CopyComplete
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\NFSeService\obj\Debug\netstandard2.1\NFSeService.dll
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\NFSeService\obj\Debug\netstandard2.1\NFSeService.pdb

@@ -52,8 +52,9 @@ namespace LayoutService.Entities
             public string FNumeroNF { get; set; }
             public DateTime FDataEmissao { get; set; }
             public string FCodigoVerificacao { get; set; }
+            public TWSSoap FSoap { get; set; }
         }
-
+        
         public class ComandoAcessar
         {
             public ComandoAcessar() { }
@@ -96,7 +97,6 @@ namespace LayoutService.Entities
             public string FnTerminal { get; set; }
             public string FNumCertificado { get; set; }
             public EnumAmbiente FAmbiente { get; set; }
-
             public string FPrefNome { get; set; }
             public string FPrefEndereco { get; set; }
             public string FPrefEndNumero { get; set; }
@@ -109,7 +109,6 @@ namespace LayoutService.Entities
             public TArquivo FPrefLogo { get; set; }
             public string FPrefShWebServices { get; set; }
             public string FPrefUsWebServices { get; set; }
-
             public string FEmitIBGEMunicipio { get; set; }
             public string FEmitRazaoSocial { get; set; }
             public string FEmitCNPJ { get; set; }
@@ -117,6 +116,14 @@ namespace LayoutService.Entities
             public string FEmitIM { get; set; }
             public int FEmitIBGEUF { get; set; }
             public TArquivo FLogo { get; set; }
+        }
+
+        public class TWSSoap
+        {
+            public string EnderecoWeb { get; set; }
+            public string ActionWeb { get; set; }
+            public string VersaoSoap { get; set; }
+            public string ContentType { get; set; }
         }
 
         #endregion Comando
@@ -243,7 +250,6 @@ namespace LayoutService.Entities
                 throw new Exception("Provedor não cadastrado.");
             }
         }
-
 
     }
 }

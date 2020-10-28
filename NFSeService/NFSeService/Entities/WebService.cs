@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using LayoutService.Enums;
+using System;
 using System.IO;
 using System.Net;
-using System.Reflection;
 using System.Text;
 using System.Xml;
 
@@ -10,14 +9,15 @@ namespace NFSeService.Entities
 {
     public abstract class WebService
     {
-        public string UrlWSDL { get; set; }                
-        protected WebService()
+        public WSSoap WSSoap { get; set; }
+        public EnumProvedor Provedor { get; set; }
+
+        protected WebService(WSSoap wSSoap, EnumProvedor provedor)
         {
+            WSSoap = WSSoap;
+            Provedor = provedor;
         }
-        protected WebService(string urlWSDL, string nameSpace)
-        {
-            UrlWSDL = urlWSDL;           
-        }
+
         public virtual string RecepcionarLoteRps()
         {
             throw new NotImplementedException();
@@ -43,6 +43,14 @@ namespace NFSeService.Entities
             throw new NotImplementedException();
         }
         public virtual string CancelarNfse()
+        {
+            throw new NotImplementedException();
+        }
+        public virtual string ConsultarStatusNfse()
+        {
+            throw new NotImplementedException();
+        }
+        public virtual string ConsultarStLote()
         {
             throw new NotImplementedException();
         }

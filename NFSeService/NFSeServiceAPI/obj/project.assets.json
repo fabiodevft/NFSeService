@@ -1581,17 +1581,30 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
-      "LayoutService/1.0.0": {
+      "Service.Layout/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "System.Security.Cryptography.Xml": "4.7.0"
         },
         "compile": {
-          "bin/placeholder/LayoutService.dll": {}
+          "bin/placeholder/Service.Layout.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LayoutService.dll": {}
+          "bin/placeholder/Service.Layout.dll": {}
+        }
+      },
+      "Service.NFSe/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Service.Layout": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Service.NFSe.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Service.NFSe.dll": {}
         }
       }
     }
@@ -5764,16 +5777,22 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
-    "LayoutService/1.0.0": {
+    "Service.Layout/1.0.0": {
       "type": "project",
-      "path": "../LayoutService/LayoutService.csproj",
-      "msbuildProject": "../LayoutService/LayoutService.csproj"
+      "path": "../LayoutService/Service.Layout.csproj",
+      "msbuildProject": "../LayoutService/Service.Layout.csproj"
+    },
+    "Service.NFSe/1.0.0": {
+      "type": "project",
+      "path": "../NFSeService/Service.NFSe.csproj",
+      "msbuildProject": "../NFSeService/Service.NFSe.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "LayoutService >= 1.0.0",
-      "Microsoft.AspNet.WebApi.Core >= 5.2.7"
+      "Microsoft.AspNet.WebApi.Core >= 5.2.7",
+      "Service.Layout >= 1.0.0",
+      "Service.NFSe >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5783,9 +5802,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\NFSeServiceAPI\\NFSeServiceAPI.csproj",
-      "projectName": "NFSeServiceAPI",
-      "projectPath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\NFSeServiceAPI\\NFSeServiceAPI.csproj",
+      "projectUniqueName": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\NFSeServiceAPI\\Service.API.csproj",
+      "projectName": "Service.API",
+      "projectPath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\NFSeServiceAPI\\Service.API.csproj",
       "packagesPath": "C:\\Users\\Infra\\.nuget\\packages\\",
       "outputPath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\NFSeServiceAPI\\obj\\",
       "projectStyle": "PackageReference",
@@ -5806,8 +5825,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\LayoutService.csproj": {
-              "projectPath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\LayoutService.csproj"
+            "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\Service.Layout.csproj": {
+              "projectPath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\Service.Layout.csproj"
+            },
+            "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\NFSeService\\Service.NFSe.csproj": {
+              "projectPath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\NFSeService\\Service.NFSe.csproj"
             }
           }
         }

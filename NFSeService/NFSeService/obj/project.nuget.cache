@@ -1,9 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "AaxNCSjV/agVDbwf8P1NZWJ87cL8lgJuKIcvsSv4T/2qmY0UcLYm/9NEtcikN6sfdgu/NbYKDWAlzibid8m2yw==",
+  "dgSpecHash": "SGzvmZLGuDW3xkAFGPED153+G4Ju5GTmC0IQA+WLp6XLh70UbDzpZe6MUTYUYaGBvRgIpCIix+OYHMQV4vNhjg==",
   "success": true,
-  "projectFilePath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\NFSeService\\NFSeService.csproj",
+  "projectFilePath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\NFSeService\\Service.NFSe.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Infra\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Infra\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\Infra\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Infra\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\Infra\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\Infra\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\Infra\\.nuget\\packages\\system.security.cryptography.cng\\4.7.0\\system.security.cryptography.cng.4.7.0.nupkg.sha512",
     "C:\\Users\\Infra\\.nuget\\packages\\system.security.cryptography.pkcs\\4.7.0\\system.security.cryptography.pkcs.4.7.0.nupkg.sha512",

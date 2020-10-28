@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SzBdJ28W4Gp5p2ZSOURCByd/hf8VgC+STSewTbeNkSR93eASDyqeWPKcCOV7KaidvTeKIG18NrjPsnJx+OhiNw==",
+  "dgSpecHash": "ZQIYPahwGEXgSitjEEoVMPHAInQZsIfHfC0cR16N08XYYWfhf2ceRuECVvz2NCAmoKxFH9heyUfvIICOf+oZcg==",
   "success": true,
-  "projectFilePath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\SecurityService\\SecurityService.csproj",
+  "projectFilePath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\SecurityService\\Service.Security.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Infra\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

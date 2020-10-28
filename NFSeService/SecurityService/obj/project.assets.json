@@ -160,17 +160,17 @@
           }
         }
       },
-      "LayoutService/1.0.0": {
+      "Service.Layout/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "System.Security.Cryptography.Xml": "4.7.0"
         },
         "compile": {
-          "bin/placeholder/LayoutService.dll": {}
+          "bin/placeholder/Service.Layout.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LayoutService.dll": {}
+          "bin/placeholder/Service.Layout.dll": {}
         }
       }
     }
@@ -716,16 +716,16 @@
         "version.txt"
       ]
     },
-    "LayoutService/1.0.0": {
+    "Service.Layout/1.0.0": {
       "type": "project",
-      "path": "../LayoutService/LayoutService.csproj",
-      "msbuildProject": "../LayoutService/LayoutService.csproj"
+      "path": "../LayoutService/Service.Layout.csproj",
+      "msbuildProject": "../LayoutService/Service.Layout.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "LayoutService >= 1.0.0",
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "Service.Layout >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -735,9 +735,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\SecurityService\\SecurityService.csproj",
-      "projectName": "SecurityService",
-      "projectPath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\SecurityService\\SecurityService.csproj",
+      "projectUniqueName": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\SecurityService\\Service.Security.csproj",
+      "projectName": "Service.Security",
+      "projectPath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\SecurityService\\Service.Security.csproj",
       "packagesPath": "C:\\Users\\Infra\\.nuget\\packages\\",
       "outputPath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\SecurityService\\obj\\",
       "projectStyle": "PackageReference",
@@ -758,8 +758,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\LayoutService.csproj": {
-              "projectPath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\LayoutService.csproj"
+            "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\Service.Layout.csproj": {
+              "projectPath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\Service.Layout.csproj"
             }
           }
         }

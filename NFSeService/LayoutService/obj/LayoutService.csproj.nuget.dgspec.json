@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\LayoutService.csproj",
-        "projectName": "LayoutService",
+        "projectName": "Service.Layout",
         "projectPath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\LayoutService.csproj",
         "packagesPath": "C:\\Users\\Infra\\.nuget\\packages\\",
         "outputPath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\obj\\",

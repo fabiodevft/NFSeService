@@ -1,13 +1,7 @@
-﻿using LayoutService.Entities;
-using LayoutService.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System;
 using System.Security.Cryptography.X509Certificates;
-using System.Threading.Tasks;
 using System.Xml;
-using static LayoutService.Entities.FrgNFSe;
-using static LayoutService.Models.NFSeModel;
+
 
 namespace NFSeServiceAPI.Business
 {
@@ -17,11 +11,13 @@ namespace NFSeServiceAPI.Business
         private readonly string _metodo;
         private readonly ComandoTransmitir _comandoTransmitir;
         private Empresa empresa;
+        private WSSoap wsSoap;
         private X509Certificate2 _certificado;
-
+        private EnumProvedor _enumProvedor;
+        
         #region CONSTRUTOR
 
-        public AplicacaoServiceNFSe(XmlDocument documento, string metodo, ComandoTransmitir comandoTransmitir)
+        public AplicacaoServiceNFSe(XmlDocument documento, string metodo, ComandoTransmitir comandoTransmitir, EnumProvedor enumProvedor)
         {
             _documento = documento;
             _metodo = metodo;
@@ -39,6 +35,8 @@ namespace NFSeServiceAPI.Business
                     _TCertificado = comandoTransmitir.TDFe._TCertificado,
                 }
             };
+
+            _enumProvedor = enumProvedor;
 
         }
 
@@ -107,63 +105,85 @@ namespace NFSeServiceAPI.Business
             {
                 empresa.AmbienteCodigo = 2;
             }
+
+            //Popula o WSSoap
+            wsSoap = new WSSoap
+            {
+                EnderecoWeb = _comandoTransmitir.FSoap.EnderecoWeb,
+                ActionWeb = _comandoTransmitir.FSoap.ActionWeb,
+                VersaoSoap = "", 
+                ContentType = "",                
+            };
+
+
         }
 
         public XmlDocument ExecutaMetodo()
-        {
-            // get cnpj do xml
-            XmlDocument resposta = null;
-            //int emp = Empresas.FindConfEmpresaIndex(cnpj, Components.TipoAplicativo.Nfse); // 2 = nfse
+        {            
+            string resposta = string.Empty;
+            WebService service = null;
 
-            switch (_metodo.ToUpper())
+            if (!string.IsNullOrWhiteSpace(wsSoap.EnderecoWeb))
             {
+                switch (_enumProvedor)
+                {
+                    case EnumProvedor.ELv2:
+                        service = new .ServiceElv2()
+
+
+
+
+                                //wsSoap.EnderecoWeb, "",
+                                //_enumProvedor, 
+                                //empresa.UsuarioWS, 
+                                //empresa.SenhaWS, 
+                                //empresa.X509Certificado);
+                        break;
+                }   
+            }            
+            
+            switch (_metodo.ToUpper())
+            {                
                 case "CANCELARNFSE":
-                    var servicoCancelar = new TaskNFSeCancelar(_documento, _certificado, empresa);
-                    resposta = servicoCancelar.ExecuteAPI();
+                    resposta = service.CancelarNfse();
                     break;
 
                 case "CONSULTARLOTERPS":
-                    var servCONSULTARLOTERPS = new TaskNFSeConsultarLoteRps(_documento, _certificado, empresa);
-                    resposta = servCONSULTARLOTERPS.ExecuteAPI();
+                    resposta = service.ConsultarLoteRps();
                     break;
+
                 case "CONSULTARNFSE":
-                    var servicoConsultarNFSe = new TaskNFSeConsultar(_documento, _certificado, empresa);
-                    resposta = servicoConsultarNFSe.ExecuteAPI();
+                    resposta = service.ConsultarNfse();
                     break;
 
                 case "CONSULTARNFSEPORRPS":
-                    var servicoConsultarNFSePorRPS = new TaskNFSeConsultarPorRps(_documento, _certificado, empresa);
-                    resposta = servicoConsultarNFSePorRPS.ExecuteAPI();
+                    resposta = service.ConsultarNfsePorRps();
                     break;
 
                 case "CONSULTARSTATUSNFSE":
-                    var servicoConsultarStatusNfse = new TaskConsultarStatusNFse(_documento, _certificado, empresa);
-                    resposta = servicoConsultarStatusNfse.ExecuteAPI();
-
+                    resposta = service.ConsultarStatusNfse();
                     break;
 
                 case "CONSULTASITUACAOLOTERPS":
-                    var servicoConsultarSituacaoLoteRPS = new TaskNFSeConsultaSituacaoLoteRps(_documento, _certificado, empresa);
-                    resposta = servicoConsultarSituacaoLoteRPS.ExecuteAPI();
-
+                    resposta = service.ConsultarSituacaoLoteRps();
                     break;
 
                 case "RECEPCIONARLOTERPS":
-                    var servicoRecepLote = new TaskNFSeRecepcionarLoteRps(_documento, _certificado, empresa);
-
-                    resposta = servicoRecepLote.ExecuteAPI();
+                    resposta = service.RecepcionarLoteRps();
                     break;
 
                 case "CONSULTARSTLOTE":
-                    var servicoConsultaStLote = new TaskNFSeConsultaSituacaoLoteRps(_documento, _certificado, empresa);
-                    resposta = servicoConsultaStLote.ExecuteAPI();
+                    resposta = service.ConsultarStLote();
                     break;
 
                 default:
                     break;
             }
 
-            return resposta;
+            XmlDocument doc = new XmlDocument();
+            doc.LoadXml(resposta);
+
+            return doc;
         }
 
         #endregion

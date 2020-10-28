@@ -16,3 +16,5 @@ D:\DESENVOLVIMENTO\NFSeService\NFSeService\NFSeServiceAPI\obj\Debug\netcoreapp3.
 D:\DESENVOLVIMENTO\NFSeService\NFSeService\NFSeServiceAPI\obj\Debug\netcoreapp3.1\NFSeServiceAPI.dll
 D:\DESENVOLVIMENTO\NFSeService\NFSeService\NFSeServiceAPI\obj\Debug\netcoreapp3.1\NFSeServiceAPI.pdb
 D:\DESENVOLVIMENTO\NFSeService\NFSeService\NFSeServiceAPI\obj\Debug\netcoreapp3.1\NFSeServiceAPI.genruntimeconfig.cache
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\NFSeServiceAPI\obj\Debug\netcoreapp3.1\NFSeServiceAPI.csproj.CoreCompileInputs.cache
+D:\DESENVOLVIMENTO\NFSeService\NFSeService\NFSeServiceAPI\obj\Debug\netcoreapp3.1\NFSeServiceAPI.MvcApplicationPartsAssemblyInfo.cache

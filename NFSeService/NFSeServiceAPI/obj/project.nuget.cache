@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3cyfx8K190mp3TrlAeVaE5TuHD0AcmqegTWpPJLZVsayKG3Ii/GySVU0UbiXsekyzIU2R/lrWTPNDSclJm66WA==",
+  "dgSpecHash": "zJMe7/LDzdz5Gujz71WkbBE06QP7UX5rL9tq8QkQzLjONGowSfbDbuC+FQJhECCPE5aX8QAgBMOji68jqmHoSg==",
   "success": true,
-  "projectFilePath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\NFSeServiceAPI\\NFSeServiceAPI.csproj",
+  "projectFilePath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\NFSeServiceAPI\\Service.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Infra\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\Infra\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.7\\microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",

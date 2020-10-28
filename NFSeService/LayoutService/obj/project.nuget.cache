@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MdP21i2Cud1dbVMCY9xMT7vOIaSkL/jsvhTHLE286K2DiMPbzkGzf4PAErEiQk09hfbKSSLcKmmUEMb4scre+A==",
+  "dgSpecHash": "+OtzbQEmOKh0/FNqxZNgwiE8H0ahkybzshQDlNWF8SvD8eWs82at86bOgaP0yydaRrIt5CXGIF/cEIALLiZOcQ==",
   "success": true,
-  "projectFilePath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\LayoutService.csproj",
+  "projectFilePath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\Service.Layout.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Infra\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

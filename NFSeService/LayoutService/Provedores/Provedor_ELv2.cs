@@ -11,7 +11,7 @@ namespace LayoutService.Provedores
 {
     public class Provedor_ELv2 : AbstractProvedor, IProvedor
     {
-        internal Provedor_ELv2()
+        public Provedor_ELv2()
         {
             this.Nome = EnumProvedor.ELv2;
         }
@@ -554,6 +554,10 @@ namespace LayoutService.Provedores
 
             };
         }
+
+        #region Leitura de Lote
+
+        #endregion
 
         #region Schemas
 

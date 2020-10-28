@@ -4,12 +4,12 @@
     "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\SecurityService\\SecurityService.csproj": {}
   },
   "projects": {
-    "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\LayoutService.csproj": {
+    "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\Service.Layout.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\LayoutService.csproj",
-        "projectName": "LayoutService",
-        "projectPath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\LayoutService.csproj",
+        "projectUniqueName": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\Service.Layout.csproj",
+        "projectName": "Service.Layout",
+        "projectPath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\Service.Layout.csproj",
         "packagesPath": "C:\\Users\\Infra\\.nuget\\packages\\",
         "outputPath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\obj\\",
         "projectStyle": "PackageReference",
@@ -92,8 +92,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\LayoutService.csproj": {
-                "projectPath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\LayoutService.csproj"
+              "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\Service.Layout.csproj": {
+                "projectPath": "D:\\DESENVOLVIMENTO\\NFSeService\\NFSeService\\LayoutService\\Service.Layout.csproj"
               }
             }
           }
